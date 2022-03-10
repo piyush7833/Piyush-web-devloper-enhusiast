@@ -4,7 +4,7 @@ body{
 #services::before{
     content: "";  
       background:url(img/b7.gif) no-repeat center center/cover;
-      /* background:black; */
+
     position: absolute;
     width: 100vw;
     height:180vh;

@@ -6,7 +6,7 @@ body{
     background:black;
     position: absolute;
     width: 100vw;
-    height:150vh;
+    height:196vh;
     z-index: -2;
     opacity: 0.8;
 
@@ -42,5 +42,7 @@ font-size:2em;
     margin-bottom: 3vh;
     height:28vh;
     width: 15vw;
-
+}
+.btn a{
+color:black;
 }

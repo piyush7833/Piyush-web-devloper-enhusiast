@@ -2,11 +2,12 @@ body{
     color:white;
 }
 #services::before{
-    content: "";
-    background:black;
+    content: "";  
+      background:url(img/b7.gif) no-repeat center center/cover;
+      /* background:black; */
     position: absolute;
     width: 100vw;
-    height:196vh;
+    height:180vh;
     z-index: -2;
     opacity: 0.8;
 

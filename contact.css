@@ -6,7 +6,7 @@ body{
     background:url(img/c.gif) no-repeat center center/cover;
     position: absolute;
     width: 100vw;
-    height:160vh;
+    height:140vh;
     z-index: -2;
     opacity: 2;
 }

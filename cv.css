@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+
+
+}
+.container::before{ 
+    content: "";
+    background:url(img/b3.gif) no-repeat center center/cover;
+    position: absolute;
+    width: 100vw;
+    height:110vh;
+    z-index: -2;
+    opacity: 0.9;
+}
+#name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.infoContainer{
+    height: 58vh;
+    width: 85vw;
+    /* background-color: cornflowerblue; */
+    margin: 145px auto;
+    display: flex;
+    justify-content:space-around;
+}
+.devinfo{
+    display: flex;
+    /* align-items: center; */
+    flex-direction:column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.devpic img{
+    height: 58vh;
+    width: 300px;
+    /* margin: 35px; */
+}
+.hello{
+    font-size: 65px;
+    color: white;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+.about{
+    font-size: 30px;
+    color: white;
+}
+
+.moreabout{
+    margin-top: 23px;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}

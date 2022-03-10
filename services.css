@@ -1,0 +1,46 @@
+body{
+    color:white;
+}
+#services::before{
+    content: "";
+    background:black;
+    position: absolute;
+    width: 100vw;
+    height:150vh;
+    z-index: -2;
+    opacity: 0.8;
+
+}
+
+#services h1{
+    font-size: 4em;
+ text-align: center;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    color:black;
+    justify-content:space-evenly;
+}
+.v h2{
+font-size:2em;
+}
+.box{
+    margin-top:6vh;
+    margin-bottom:16vh;
+    height: auto;
+    width: 20vw;
+    background:white;
+    text-align: center;
+    padding: 2vw;
+}
+.box p{
+    font-size:1.3em;
+}
+.box img{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height:28vh;
+    width: 15vw;
+
+}

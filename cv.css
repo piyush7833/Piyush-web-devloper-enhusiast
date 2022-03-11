@@ -73,6 +73,7 @@
         height: 40vh;
         width: auto;
         margin-top: 150px;
+        margin-left: auto;
     }
     .hello{
         font-size: 65px;

@@ -71,8 +71,8 @@
     }
     .devpic img{
         height: 40vh;
-        width: 418px;
-        margin-top: 6vh
+        width: auto;
+        margin-top: 150px;
     }
     .hello{
         font-size: 65px;
@@ -88,26 +88,22 @@
 
     .devpic img{
         height: 30vh;
-        width: 309px;
+        /* width: 309px; */
     }
 }
 @media(max-width:400px){
 
     .devpic img{
-        height: 30vh;
-        width: 309px;
-        margin-top:10vh;
+        height: 25vh;
+        /* width: 309px; */
+        /* margin-top:10vh; */
     }
 }
 
 
 @media(max-width:350px){
     .devpic img{
-        height: 30vh;
-        width: 200px;
-        margin-top: 20vh;
+        height: 20vh;
+        /* width: 200px; */
     }
-    .footer{
-        margin-top: 25vh;
-        }
 }

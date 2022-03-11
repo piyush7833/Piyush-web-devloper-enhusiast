@@ -144,3 +144,13 @@ body{
         width: 30vw;
     }
 }
+@media (max-width:400px){
+    .btn{
+        width: 35vw;
+    }
+}
+@media (max-width:300px){
+    .btn{
+        width: 40vw;
+    }
+}

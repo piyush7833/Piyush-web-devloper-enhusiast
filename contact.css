@@ -4,9 +4,9 @@ body{
 .container::before{ 
     content: "";
     background:url(img/c.gif) no-repeat center center/cover;
-    position: absolute;
+    position: fixed;
     width: 100vw;
-    height:140vh;
+    height:100vh;
     z-index: -2;
     opacity: 2;
 }
@@ -48,7 +48,7 @@ body{
 }
 #emailHelp{
     font-size: 1.3em;
-    color: red;
+    color: rgb(255, 251, 0);
   
 }
 #form-check{
@@ -70,4 +70,77 @@ body{
 }
 .btn{
     width: 10vw;
+}
+
+
+
+
+
+@media (max-width:1700px){
+    .contactform form div input{
+        width: 30vw;
+    }
+}
+
+@media (max-width:1500px){
+    .contactform form div input{
+        width: 35vw;
+    }
+    #form-check label{
+        margin-left:-8.5vw;
+    }
+}
+@media (max-width:1200px){
+    .contactform form div input{
+        width: 40vw;
+    }
+    #form-check label{
+        margin-left:-8vw;
+    }
+}
+@media (max-width:1000px){
+    .contactform form div input{
+        width: 45vw;
+    }
+    #form-check label{
+        margin-left:-7.5vw;
+    }
+    .btn{
+        width: 15vw;
+    }
+}
+@media (max-width:750px){
+    .contactform form div input{
+        width: 50vw;
+    }
+    #form-check label{
+        margin-left:-7vw;
+    }
+    .btn{
+        width: 20vw;
+    }
+}
+
+@media (max-width:600px){
+    .contactform form div input{
+        width: 60vw;
+    }
+    #form-check label{
+        margin-left:-6vw;
+    }
+    .btn{
+        width: 25vw;
+    }
+}
+
+@media (max-width:500px){
+    .contactform form div input{
+        width: 80vw;
+    }
+    #form-check label{
+        margin-left:-5vw;
+    }
+    .btn{
+        width: 30vw;
+    }
 }

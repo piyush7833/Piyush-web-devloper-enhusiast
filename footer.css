@@ -1,6 +1,7 @@
 .footer{
     color:white;
     list-style:none;
+    margin-bottom: 10vh;
 
 }
 .social{
@@ -27,7 +28,7 @@ border-radius: 1em;
     margin-right:4vw;
     margin-left:4vw;
     height: 4vh;
-    width:2vw;
+    width:40px;
     align-items: center;
 }
 
@@ -52,6 +53,6 @@ border-radius: 1em;
         width: 30px;
     }
     .footer{
-    margin-top: 8vh;
+    margin-top: 25vh;
     }
 }

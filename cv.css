@@ -91,13 +91,21 @@
         width: 309px;
     }
 }
+@media(max-width:400px){
+
+    .devpic img{
+        height: 30vh;
+        width: 309px;
+        margin-top:10vh;
+    }
+}
 
 
 @media(max-width:350px){
     .devpic img{
         height: 30vh;
         width: 200px;
-        margin-top: 12vh;
+        margin-top: 20vh;
     }
 
 }

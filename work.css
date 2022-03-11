@@ -3,11 +3,11 @@ body{
 }
 #work::before{
     content: "";  
-    /* background:url(img/b7.gif) no-repeat center center/cover; */
-    background:black;
-  position: absolute;
+    background:url(img/b9.gif) no-repeat center center/cover;
+    /* background:black; */
+  position: fixed;
   width: 100vw;
-  height:145vh;
+  height:100vh;
   z-index: -2;
   opacity: 0.8;
 }
@@ -18,7 +18,11 @@ h1{
 p{
     text-align: center;
     font-size:2em;
-    margin-top: 6vh;
+}
+.p1{
+    margin-top: 2vh;
+    text-align: center;
+    font-size:2em;
 }
 .work{
     display:flex;
@@ -41,18 +45,125 @@ p{
     color:black;
     font-size:2.5em;
 }
-.box img{
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    height:28vh;
-    width: 15vw;
-}
+
 .box video{
     margin-top: 3vh;
     margin-bottom: 3vh;
-    height:28vh;
+    height:auto;
     width: 26vw;
 }
 .btn a{
 color:black;
+}
+
+
+
+
+
+
+
+@media(max-width:1500px){
+
+    h1{
+        font-size:5.5em;
+    }
+    .p1{
+        margin-top:3vh;
+        margin-bottom:6vh;
+        font-size:2.2em
+    }
+    p{
+        font-size:2em;
+    }
+    .work{
+        display:flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .box{
+        width: 70vw;
+        padding: 2vw;
+    }
+    .box p{
+        font-size:1.8em;
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    .box h2{
+        margin-top: 2vh;
+        font-size:3.8em;
+    } 
+    .box video{
+        margin-top: 3vh;
+        margin-bottom: 2.5vh;
+        width: 60vw;
+    }
+    .btn{
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+    .btn button{
+        font-size: 25px ;    
+    }
+}
+@media(max-width:1000px){
+    .box{
+        margin-bottom:7vw ;
+    }
+}
+
+
+
+
+@media(max-width:550px){
+    h1{
+        font-size:4.8em;
+    }
+    .p1{
+        margin-top:3vh;
+        margin-bottom:9vh;
+        font-size:1.8em
+    }
+    p{
+        font-size:2em;
+    }
+    .box{
+        margin-top: 3vh;
+        margin-bottom: 7vh;
+        width: 70vw;
+        padding: 2vw;
+    }
+    .box p{
+        /* margin-top: 3vh; */
+        font-size:1.5em;
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+    .box h2{
+        margin-top: 2vh;
+        font-size:3em;
+    } 
+    .box video{
+        margin-top: 3vh;
+        margin-bottom: 2.5vh;
+        width: 62vw;
+    }
+    .btn{
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+    .btn button{
+        font-size: 25px ;    
+    }
+}
+
+
+
+@media(max-width:550px){
+    .box{
+        margin-bottom: 5vh;
+    }
 }

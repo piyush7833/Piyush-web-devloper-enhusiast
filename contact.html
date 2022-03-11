@@ -11,76 +11,103 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="utility.css">
     <script src="https://kit.fontawesome.com/e30a82256a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 
 <body>
     <nav>
 
-        <div id="logo"><a href="home.html"><img src="img/p.jpg" height="84px" width="140px"></a></div>
+        <div id="logo"><a href="index.html"><img src="img/p.jpg" height="84px" width="140px"></a></div>
         <input type="checkbox" name="" id="click">
         <label for="click" class="menu-btn">
             <i class="fas fa-bars"></i>
         </label>
         <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="services.html"><li>Services</li></a>
-            <a href="skills.html"><li>Skills</li></a>
-            <a href="work.html"><li>My works</li></a>
-            <a href="contact.html"><li>Contact</li></a>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="services.html">
+                <li>Services</li>
+            </a>
+            <a href="skills.html">
+                <li>Skills</li>
+            </a>
+            <a href="work.html">
+                <li>My works</li>
+            </a>
+            <a href="contact.html">
+                <li>Contact</li>
+            </a>
         </ul>
-     </nav>
-
+    </nav>
+                    <script type="text/javascript">var submitted = false;</script>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
+                        onload="if(submitted){window.location='thank.html';}"></iframe>
     <secton id="contact">
-    <div class="container">
+        <div class="container">
 
-        <div class="main">
-            <div class="contactform">
-                <script type="text/javascript">var submitted=false;</script>
-     <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='thank.html';}"></iframe>     
-                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdr67gszI5KVjHgYwWiflhFd8pPT1y-BS_CJJnE259invc6KQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform">
-                <h1>Contact me for work/genral querries</h1>
-                    <div class="mb-3">
-                        <label for="clientName"  class="form-label"> <i class="fa fa-user"></i>Name*</label>
-                        <input type="text" class="form-control" id="name;"name="entry.1841586585" aria-describedby="emailHelp" required
-                            placeholder="entre your name">
-                    </div>
-                    <div class="mb-3">
-                        <label for="clientEmail" class="form-label"><i class="fa fa-envelope"></i> Email address*</label>
-                        <input type="email" class="form-control" id="email;"name="entry.1777641014" aria-describedby="emailHelp"required
-                            placeholder="entre your email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="clientPhone" class="form-label"><i class="fa fa-mobile"></i> Phone Number*</label>
-                        <input type="number" class="form-control" id="clientPhone" placeholder="entre your number" name="entry.1429191309" required> 
-                    </div>
-                    <div class="mb-3">
-                        <label for="clientQuerry" class="form-label"><i class="fa-solid fa-comments-dollar"></i>Enquiry*</label>
-                        <input type="text" class="form-control" id="enquiry;" aria-describedby="emailHelp" required name="entry.387300186" 
-                            placeholder="entre your querry">
-                    </div>
-                    <div id="emailHelp" class="form-text">*We'll never share your email & phone number with anyone else.
-                    </div>
-                    <a href="services.html">See Pricing</a>
-                    <div class="mb3" id="form-check">
-                        <input type="checkbox" class="form-check-input" id="isClient" >
-                        <label class="form-check-label" for="isClient">I want you to work on a project with me</label>
-                    </div>
-                <div class="btn">
-                    <button type="submit">Submit</button> 
+            <div class="main">
+                <div class="contactform">
+
+                    <form
+                        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdr67gszI5KVjHgYwWiflhFd8pPT1y-BS_CJJnE259invc6KQ/formResponse"
+                        method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform">
+                        <h1>Contact me for work/genral querries</h1>
+                        <div class="mb-3">
+                            <label for="clientName" class="form-label"> <i class="fa fa-user"></i>Name*</label>
+                            <input type="text" class="form-control" id="name;" name="entry.1841586585"
+                                aria-describedby="emailHelp" required placeholder="entre your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientEmail" class="form-label"><i class="fa fa-envelope"></i> Email
+                                address*</label>
+                            <input type="email" class="form-control" id="email;" name="entry.1777641014"
+                                aria-describedby="emailHelp" required placeholder="entre your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientPhone" class="form-label"><i class="fa fa-mobile"></i> Phone
+                                Number*</label>
+                            <input type="number" class="form-control" id="clientPhone" placeholder="entre your number"
+                                name="entry.1429191309" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientQuerry" class="form-label"><i
+                                    class="fa-solid fa-comments-dollar"></i>Enquiry*</label>
+                            <input type="text" class="form-control" id="enquiry;" aria-describedby="emailHelp" required
+                                name="entry.387300186" placeholder="entre your querry">
+                        </div>
+                        <div id="emailHelp" class="form-text">*We'll never share your email & phone number with anyone
+                            else.
+                        </div>
+                        <a href="services.html">See Pricing</a>
+                        <div class="mb3" id="form-check">
+                            <input type="checkbox" class="form-check-input" id="isClient">
+                            <label class="form-check-label" for="isClient">I want you to work on a project with
+                                me</label>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Submit</button>
+                        </div>
                 </div>
-            </div> </form>
-            <footer class="center footer">
-                <h2>Connect with me on</h2>
-            <div class="social">
-                <a href="https://www.instagram.com/_piyush_8_3_3/" target="blank"><li><img src="img/l.png" alt=""></li></a> 
-               <a href="https://www.linkedin.com/in/piyush-singh-403089221/" target="blank"><li><img src="img/k.png" alt=""></li></a> 
-               <a href="https://www.fiverr.com/piyushsingh7833?up_rollout=true" target="blank"><li><img src="img/f.webp" alt=""></li></a> 
+                </form>
+                <footer class="center footer">
+                    <h2>Connect with me on</h2>
+                    <div class="social">
+                        <a href="https://www.instagram.com/_piyush_8_3_3/" target="blank">
+                            <li><img src="img/l.png" alt=""></li>
+                        </a>
+                        <a href="https://www.linkedin.com/in/piyush-singh-403089221/" target="blank">
+                            <li><img src="img/k.png" alt=""></li>
+                        </a>
+                        <a href="https://www.fiverr.com/piyushsingh7833?up_rollout=true" target="blank">
+                            <li><img src="img/f.webp" alt=""></li>
+                        </a>
+                    </div>
+                </footer>
             </div>
-            </footer>
         </div>
-    </div>
 
 </body>
 

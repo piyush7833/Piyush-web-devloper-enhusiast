@@ -40,7 +40,7 @@
 .devpic img{
     height: 58vh;
     width: 300px;
-    /* margin: 35px; */
+    /* margin-top: 6vh */
 }
 .hello{
     font-size: 65px;
@@ -62,4 +62,42 @@
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
     color: white;
+}
+
+
+@media(max-width:600px){
+    .infoContainer{
+        flex-direction: column-reverse;
+    }
+    .devpic img{
+        height: 40vh;
+        width: 418px;
+        margin-top: 6vh
+    }
+    .hello{
+        font-size: 65px;
+        color: white;
+    }
+    .devinfo{
+ margin-top: 4vh;
+    }
+}
+
+
+@media(max-width:500px){
+
+    .devpic img{
+        height: 30vh;
+        width: 309px;
+    }
+}
+
+
+@media(max-width:350px){
+    .devpic img{
+        height: 30vh;
+        width: 200px;
+        margin-top: 12vh;
+    }
+
 }

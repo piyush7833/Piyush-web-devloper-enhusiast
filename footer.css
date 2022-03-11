@@ -30,3 +30,28 @@ border-radius: 1em;
     width:2vw;
     align-items: center;
 }
+
+
+
+
+
+@media(max-width:1000px){
+    .footer img{
+        width:50px
+    }
+    .footer{
+        color:white;
+        list-style:none;
+        margin-top: 4vh;
+    
+    }
+}  
+
+@media(max-width:350px){
+    .footer img{
+        width: 30px;
+    }
+    .footer{
+    margin-top: 8vh;
+    }
+}

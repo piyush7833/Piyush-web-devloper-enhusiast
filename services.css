@@ -87,7 +87,7 @@ color:black;
         background:white;
         text-align: center;
         padding: 2vw;
-        box-shadow: 40px grey;
+        /* border-radius:6vw; */
     }
     .box p{
         font-size:1.8em;

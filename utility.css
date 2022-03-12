@@ -30,3 +30,20 @@
 .center{
 text-align: center;
 }
+.box img{
+    border-radius: 1em;
+}
+.box video{
+    border-radius: 1em;
+}
+.box{
+    border-radius: 1em;
+    box-shadow: 7px 7px  grey;
+}
+.box:hover{
+    border-radius: 2em;
+    transform: translateY(2px);
+    background-color: whitesmoke;
+    box-shadow: 10px 10px  grey;
+
+}

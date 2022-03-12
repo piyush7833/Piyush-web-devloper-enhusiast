@@ -37,13 +37,13 @@ text-align: center;
     border-radius: 1em;
 }
 .box{
-    border-radius: 1em;
-    box-shadow: 7px 7px  grey;
+    border-radius: 1em;    
+    box-shadow: 7px 7px rgb(170, 170, 170), -7px -7px rgb(170, 170, 170);
 }
 .box:hover{
     border-radius: 2em;
-    transform: translateY(2px);
-    background-color: whitesmoke;
-    box-shadow: 10px 10px  grey;
+    transform: translateY(6px);
+    background-color: #FFFAFA;
+    box-shadow: 9px 9px blanchedalmond, -9px -9px blanchedalmond;
 
 }

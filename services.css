@@ -40,7 +40,9 @@ font-size:2em;
     background:white;
     text-align: center;
     padding: 2vw;
+    border-radius: 1em;    
 }
+
 .box p{
     font-size:1.3em;
 }

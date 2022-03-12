@@ -91,7 +91,7 @@
     .devpic img{
         height: 30vh;
         /* width: 309px; */
- 
+        margin-top:300px;
     }
 }
 @media(max-width:450px){
@@ -99,7 +99,7 @@
     .devpic img{
         height: 25vh;
         /* width: 309px; */
-        margin-top:20vh;
+
     }
 }
 

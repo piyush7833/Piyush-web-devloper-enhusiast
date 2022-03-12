@@ -40,10 +40,13 @@
 .devpic img{
     height: 58vh;
     width: 300px;
+
     /* margin-top: 6vh */
 }
 .devpic img:hover{
 transform: scale(1.05);
+-webkit-filter: drop-shadow(5px 5px 5px grey);
+filter: drop-shadow(5px 5px 5px grey);
     /* margin-top: 6vh */
 }
 .hello{

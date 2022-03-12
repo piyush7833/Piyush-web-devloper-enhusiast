@@ -70,9 +70,10 @@
         flex-direction: column-reverse;
     }
     .devpic img{
-        height: 40vh;
+        height: 35vh;
         width: auto;
-        margin-top: 150px;
+        /* margin-top: 150px; */
+        margin-top: auto;
         margin-left: auto;
     }
     .hello{
@@ -90,9 +91,10 @@
     .devpic img{
         height: 30vh;
         /* width: 309px; */
+ 
     }
 }
-@media(max-width:400px){
+@media(max-width:450px){
 
     .devpic img{
         height: 25vh;
@@ -105,6 +107,7 @@
 @media(max-width:350px){
     .devpic img{
         height: 20vh;
+
         /* width: 200px; */
     }
 }

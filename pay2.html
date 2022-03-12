@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="skill.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="utility.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  /* font-size: 17px; */
+  /* padding: 8px; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+.p::before{
+  content: "";  
+    /* background:url(img/b7.gif) no-repeat center center/cover; */
+    background:black;
+  position: fixed;
+  width: 100vw;
+  height:100vh;
+  z-index: -2;
+  opacity: 0.8;
+  /* margin-left: -2vw; */
+}
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding-left: 16px;
+}
+.q::after{
+  content: "";  
+    background:url(img/q.gif) no-repeat center center/cover;
+  border-radius: 50%;
+    /* background:black; */
+  position: absolute;
+  width: 500px;
+  height:500px;
+  z-index: -2;
+  opacity: 0.6;
+  /* margin-top: -60vh; */
+  margin-left: 55vw;
+}
+.container {
+  width:40vw;
+  margin-left:5vw;
+  margin-top: 5vh;
+}
+
+input[type=text] {
+  width: 600px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size:1.3em;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 1.3em;
+  color: white;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: rgb(114, 175, 231);
+    /* font-weight: bold; */
+     font-size: 20px;
+     padding: 12px;
+     border-radius: 31px;
+     margin-bottom: 10vh;
+     padding-left: -30vw;
+     padding-right: 30px;
+     cursor: pointer;
+     width: 600px;
+     height:70px;
+     /* margin-left: auto; */
+     margin-right: auto;
+
+}
+
+.btn:hover {
+  background-color:rgb(242, 244, 247);
+    color: crimson;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 1300px) {
+  .q::after{
+display: none;
+}
+.container {
+  width:40vw;
+  margin:auto;
+  margin-top: 5vh;
+}
+}
+@media (max-width: 900px) {
+.container {
+  width:40vw;
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+}
+@media (max-width: 730px) {
+.container {
+  width:40vw;
+  margin-left: 6vw;
+  margin-top: 5vh;
+}
+}
+@media (max-width: 700px) {
+  input[type=text] {
+  width: 500px;
+}
+}
+@media (max-width: 600px) {
+  input[type=text] {
+  width: 400px;
+}
+}
+@media (max-width: 500px) {
+  input[type=text] {
+  width: 300px;
+}
+}
+@media (max-width: 350px) {
+  input[type=text] {
+  width: 200px;
+}
+}
+</style>
+</head>
+<body>
+  <nav>
+
+    <div id="logo"><a href="home.html"><img src="img/p.jpg" height="84px" width="140px"></a></div>
+    <input type="checkbox" name="" id="click">
+    <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="services.html"><li>Services</li></a>
+        <a href="skills.html"><li>Skills</li></a>
+        <a href="work.html"><li>My works</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+    </ul>
+ </nav>
+<div class="p">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h3 style="text-align: center;font-family: lato; font-size:4em; color:white;">Pay For Aarambh</h3>
+<div class="row"  >
+  <div class="col-50">
+    <div class="container" >
+      <form  action="payscript.php" method="post" >
+        <div class="q"></div>
+        <div class="row" >
+          <div class="col-25">
+            <label for="fname"><i class="fa fa-user"></i>  Full Name</label>
+            <input type="text" id="fname" name="name" placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <input type="hidden" value="<?php echo 'OID'.rand(100,1000);?>" name="orderid">
+            <input type="hidden" value="<?php echo 1;?>" name="amount">
+            <label for="city"><i class="fa fa-mobile"></i> Mobile</label>
+            <input type="text" id="city" name="mobile" placeholder="Mobile Number">
+        </div>
+        <input type="submit"  value="Pay Now" class="btn">
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+<!-- <button id="rzp-button1" class="btn">Pay with Razorpay</button>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<form name='razorpayform' action="verify.php" method="POST">
+    <input type="hidden" name="razorpay_payment_id" id="razorpay_payment_id">
+    <input type="hidden" name="razorpay_signature"  id="razorpay_signature" >
+</form> -->
+<!-- <script>
+// Checkout details as a json
+// var options = <?php echo $json?>;
+
+/**
+* The entire list of checkout fields is available at
+* https://docs.razorpay.com/docs/checkout-form#checkout-fields
+*/
+options.handler = function (response){
+    document.getElementById('razorpay_payment_id').value = response.razorpay_payment_id;
+    document.getElementById('razorpay_signature').value = response.razorpay_signature;
+    document.razorpayform.submit();
+};
+
+// Boolean whether to show image inside a white frame. (default: true)
+options.theme.image_padding = false;
+
+var rzp = new Razorpay(options);
+
+document.getElementById('rzp-button1').onclick = function(e){
+    rzp.open();
+    e.preventDefault();
+}
+</script> -->
+</body>
+</html>

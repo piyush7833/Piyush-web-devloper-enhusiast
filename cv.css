@@ -95,7 +95,7 @@ transform: scale(1.05);
     .devpic img{
         height: 30vh;
         /* width: 309px; */
-        margin-top:200px;
+        margin-top:150px;
     }
 }
 @media(max-width:450px){
@@ -103,8 +103,11 @@ transform: scale(1.05);
     .devpic img{
         height: 25vh;
         /* width: 309px; */
-
     }
+    .footer {
+        margin-top: 150px;
+    }
+
 }
 
 

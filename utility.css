@@ -18,12 +18,14 @@
 .btn button:hover{
     background-color:rgb(242, 244, 247);
     color: crimson;
+    transform: scale(1.08);
 }
-.btn button a:hover{
+/* .btn button a:hover{
     background-color: rgb(249, 251, 255);
     color: crimson;
     text-decoration: none;
-}
+
+} */
 .btn button:active{
     background-color: darkgrey;
 }
@@ -42,7 +44,7 @@ text-align: center;
 }
 .box:hover{
     border-radius: 2em;
-    transform: translateY(6px);
+    transform: scale(1.02);
     background-color: #FFFAFA;
     box-shadow: 9px 9px blanchedalmond, -9px -9px blanchedalmond;
 

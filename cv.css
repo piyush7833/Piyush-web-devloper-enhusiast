@@ -42,6 +42,10 @@
     width: 300px;
     /* margin-top: 6vh */
 }
+.devpic img:hover{
+transform: scale(1.05);
+    /* margin-top: 6vh */
+}
 .hello{
     font-size: 65px;
     color: white;
@@ -91,7 +95,7 @@
     .devpic img{
         height: 30vh;
         /* width: 309px; */
-        margin-top:300px;
+        margin-top:200px;
     }
 }
 @media(max-width:450px){

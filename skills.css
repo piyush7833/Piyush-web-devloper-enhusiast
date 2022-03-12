@@ -51,6 +51,7 @@ transform: scale(1.05);
 .q{
     font-size: 0.8em;
   text-align:end;
+  margin: auto;
   margin-right: 0.5vw;
   color: black;
   font-weight: bold;

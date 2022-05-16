@@ -35,13 +35,37 @@
     /* align-items: center; */
     flex-direction:column;
     justify-content: center;
+    animation: piyush1 2s ease-in 1s 1 forwards;
     font-family: 'Source Code Pro', monospace;
 }
 .devpic img{
     height: 58vh;
     width: 300px;
-
+    animation: piyush2 2s ease-in 1s 1 forwards;
     /* margin-top: 6vh */
+}
+@keyframes piyush1 {
+    0%{
+     transform: translatex(-40vh);
+    }
+    75%{
+        transform: scale(1.2);
+        }
+        100%{
+         transform: scale(1);
+        }
+    
+}
+@keyframes piyush2 {
+    0%{
+     transform: translatex(40vh);
+    }
+    75%{
+    transform: scale(1.2);
+    }
+    100%{
+     transform: scale(1);
+    }
 }
 .devpic img:hover{
 transform: scale(1.05);

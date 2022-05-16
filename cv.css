@@ -53,18 +53,20 @@
         }
         100%{
          transform: scale(1);
-        }
-    
+        }  
 }
 @keyframes piyush2 {
     0%{
-     transform: translatex(40vh);
+    transform: translatex(40vh);
+    opacity: 0;
     }
     75%{
     transform: scale(1.2);
+    opacity: 0.5;
     }
     100%{
      transform: scale(1);
+     opacity: 1;
     }
 }
 .devpic img:hover{

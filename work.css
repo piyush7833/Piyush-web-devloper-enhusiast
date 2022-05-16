@@ -28,6 +28,7 @@ p{
     display:flex;
     justify-content:space-evenly;
 }
+
 .box{
     margin-top:6vh;
     margin-bottom:16vh;
@@ -36,6 +37,18 @@ p{
     background:white;
     text-align: center;
     padding: 2vw;
+    animation: piyush 2s ease-in 1s 1 forwards;
+}
+@keyframes piyush {
+    0%{
+    opacity: 0;
+    }
+    50%{
+    opacity: 0.5;
+    }
+    100%{
+    opacity: 1;
+    }
 }
 .box p{
     color:black;

@@ -28,6 +28,18 @@ body{
     flex-direction: row;
     color:black;
     justify-content:space-evenly;
+    animation: piyush 3s ease-in 1s 1 forwards;
+}
+@keyframes piyush {
+    0%{
+    opacity: 0;
+    }
+    50%{
+    opacity: 0.5;
+    }
+    100%{
+    opacity: 1;
+    }
 }
 .v h2{
 font-size:2em;

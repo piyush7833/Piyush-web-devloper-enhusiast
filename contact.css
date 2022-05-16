@@ -13,6 +13,18 @@ body{
 .contactform{
     padding-top: 144px;
     padding-left: 34px;
+
+}
+@keyframes piyush {
+    0%{
+     transform: translatex(-10vh);
+    }
+    75%{
+        transform: scale(0.8);
+        }
+        100%{
+         transform: scale(1);
+        }  
 }
 .contactform form div {
         padding: 10px 0px;
@@ -20,6 +32,7 @@ body{
         flex-direction: column;
         /* width: 290px; */
         border-radius: 12px;
+        animation: piyush 2s ease-in 1s 1 forwards;
 }
 .contactform form div input{
     border-radius: 9px;

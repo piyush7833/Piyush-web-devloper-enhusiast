@@ -7,8 +7,79 @@
 .container{
     display: flex;
 
+}
+:root{  
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+  }
+  .magic-text{
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--purple),
+        var(--violet),
+        var(--pink),
+        var(--purple)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+  @keyframes background-pan {
+    from {
+      background-position: 0% center;
+    }
+    
+    to {
+      background-position: -200% center;
+    }
+  }
+  @keyframes scale {
+    from, to {
+      transform: scale(0);
+    }
+    
+    50% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  .magic-text{
+ display: inline-block;
+ position: relative;
+  }
+.magic-star{
+    --size: clamp(20px, 1.5vw, 30px);
+  
+    animation: scale 700ms ease forwards;
+    display: block;
+    height: var(--size);
+    left: var(--star-left);
+    position: absolute;
+    top: var(--star-top);
+    width: var(--size);
 
 }
+.magic-star i{
+    animation: rotate 1000ms linear infinite;
+    display: block;
+    opacity: 0.7;
+
+}
+.magic  .magic-star  svg path {
+    fill: var(--violet);
+  }
 .container::before{ 
     content: "";
     background:url(img/b3.gif) no-repeat center center/cover;
@@ -19,6 +90,7 @@
     opacity: 0.9;
 }
 #name{
+    
     font-size: 25px;
     font-weight: bold;
 }
@@ -36,7 +108,7 @@
     flex-direction:column;
     justify-content: center;
     animation: piyush1 2s ease-in 1s 1 forwards;
-    font-family: 'Source Code Pro', monospace;
+    font-family:  'poppins',sans-serif;
 }
 .devpic img{
     height: 58vh;
@@ -82,7 +154,7 @@ filter: drop-shadow(5px 5px 5px grey);
 .name{
     font-size: 50px;
     font-weight: bold;
-    font-family: 'Fira Sans', sans-serif;
+    font-family:  'poppins',sans-serif;
     color: white;
 }
 .about{
